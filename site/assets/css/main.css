@@ -168,7 +168,8 @@ body {
 
 /* Fading animation */
 
-.fade {
+
+/* .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -177,19 +178,60 @@ body {
 
 @-webkit-keyframes fade {
     from {
-        opacity: .4
+        transform: translateX(100%);
     }
     to {
-        opacity: 1
+        transform: translateX(0%);
     }
 }
 
 @keyframes fade {
     from {
-        opacity: .4
+        transform: translateX(100%);
     }
     to {
-        opacity: 1
+        transform: translateX(0%);
+    }
+} */
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 4s;
+    animation-name: slideIn;
+    animation-duration: 4s;
+}
+
+.slideOut {
+    -webkit-animation-name: slideOut;
+    -webkit-animation-duration: 4s;
+    animation-name: slideOut;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);
     }
 }
 
@@ -197,7 +239,7 @@ body {
 .right {
     cursor: pointer;
     position: absolute;
-    bottom: -22px;
+    bottom: 0;
     width: 48px;
     min-height: calc(100vh - 275px);
     background-color: #FFFFFF;
@@ -230,6 +272,7 @@ body {
 
 main {
     min-height: calc(100vh - 458px);
+    position: relative;
 }
 
 .pageTitle {
