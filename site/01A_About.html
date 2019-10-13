@@ -47,66 +47,449 @@
 </head>
 
 <body>
-    <div id="page">
-        <div id="header">
-            <div class="mainContainer flexContainer">
+    <div class="sliderShow">
+        <div class="page fade" id="page1">
+            <header>
+                <div class="mainContainer flexContainer">
 
-                <!--Logo-->
-                <a href="#" class="logoWrap">
-                    <img src="./assets/images/logo.png" alt="logo">
-                </a>
+                    <!--Logo-->
+                    <a href="#" class="logoWrap">
+                        <img src="./assets/images/logo.png" alt="logo">
+                    </a>
 
-                <nav class="topMenu">
+                    <nav class="topMenu">
 
-                    <!--Left menu-->
-                    <ul class="mainMenuList mainNav">
-                        <li class="mainMenuElement active">
-                            <a href="#" class="mainMenuLink"><span data-hover="About">About</span></a>
-                        </li>
-                        <li class="mainMenuElement">
-                            <a href="#" class="mainMenuLink"><span data-hover="Projects">Projects</span></a>
-                        </li>
-                        <li class="mainMenuElement">
-                            <a href="#" class="mainMenuLink"><span data-hover="Contact">Contact</span></a>
-                        </li>
-                    </ul>
+                        <!--Left menu-->
+                        <ul class="mainMenuList mainNav">
+                            <li class="mainMenuElement active">
+                                <a href="#" class="mainMenuLink"><span data-hover="About">About</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Projects">Projects</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Contact">Contact</span></a>
+                            </li>
+                        </ul>
 
-                    <div id="mobileButton" class="mobileButton" onclick="mobileMenu();">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div id="mainContent">
-            <div class="mainContainer">
-                <div class="contentWhiteBox mt">
-
-                    <div class="flexBox">
-                        <div class="flexBoxLeft aboutLeftImage">
-                            <img src="./assets/images/about-me-designer.png" alt="">
+                        <div id="mobileButton" class="mobileButton" onclick="mobileMenu();">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
-                        <div class="flexBoxRight">
-                            <div class="textContent">
-                                <h1 class="pageTitle">
-                                    Hello,
-                                </h1>
-                                <p class="mainP">I’m Krishnakumar, An accomplished and experienced creative leader, with 12 years of experience in the design industry. Complete knowledge of User-Centred Design & Design Thinking.</p>
-                                <a class="knowMore" href="#" target="_blank">Know More</a>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="mainContainer">
+                    <div class="contentWhiteBox mt">
+
+                        <div class="flexBox">
+                            <div class="flexBoxLeft">
+                                <img src="./assets/images/about-me-designer.png" alt="">
+                            </div>
+                            <div class="flexBoxRight">
+                                <div class="textContent">
+                                    <h1 class="pageTitle">
+                                        Hello,
+                                    </h1>
+                                    <p class="mainP">I’m Krishnakumar, An accomplished and experienced creative leader, with 12 years of experience in the design industry. Complete knowledge of User-Centred Design & Design Thinking.</p>
+                                    <a class="knowMore" href="01A_About_Content.html" target="_blank">Know More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <a class="right" onclick="plusSlides(1)">❯</a>
                 </div>
-            </div>
+            </main>
+            <footer>
+                <div class="footerText mainContainer">
+                    krishnakumarvs.net all rights resereved
+                </div>
+            </footer>
         </div>
-        <div id="footer">
-            <div class="footerText mainContainer">
-                krishnakumarvs.net all rights resereved
-            </div>
+
+        <!-- page 2 -->
+
+        <div class="page fade" id="page2">
+            <header>
+                <div class="mainContainer flexContainer">
+
+                    <!--Logo-->
+                    <a href="#" class="logoWrap">
+                        <img src="./assets/images/logo.png" alt="logo">
+                    </a>
+
+                    <nav class="topMenu">
+
+                        <!--Left menu-->
+                        <ul class="mainMenuList mainNav">
+                            <li class="mainMenuElement active">
+                                <a href="#" class="mainMenuLink"><span data-hover="About">About</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Projects">Projects</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Contact">Contact</span></a>
+                            </li>
+                        </ul>
+
+                        <div id="mobileButton" class="mobileButton" onclick="mobileMenu();">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="mainContainer">
+                    <div class="contentWhiteBox mt">
+
+                        <div class="flexBox">
+                            <div class="flexBoxTitle"> HTC / 2016</div>
+                            <div class="flexBoxLeft">
+                                <img src="assets/images/a-dashboard-for-the-car.png" alt="">
+                            </div>
+                            <div class="flexBoxRight">
+                                <div class="textContent">
+                                    <h1 class="pageTitle">
+                                        A Dashboard for the Car
+                                    </h1>
+                                    <p class="mainP">Description Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a class="knowMore" href="#" target="_blank">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left" onclick="plusSlides(-1)">❮</a>
+                    <a class="right" onclick="plusSlides(1)">❯</a>
+                </div>
+
+            </main>
+            <footer>
+                <div class="footerText mainContainer">
+                    krishnakumarvs.net all rights resereved
+                </div>
+            </footer>
         </div>
+
+        <!-- page 3 -->
+
+        <div class="page fade" id="page3">
+            <header>
+                <div class="mainContainer flexContainer">
+
+                    <!--Logo-->
+                    <a href="#" class="logoWrap">
+                        <img src="./assets/images/logo.png" alt="logo">
+                    </a>
+
+                    <nav class="topMenu">
+
+                        <!--Left menu-->
+                        <ul class="mainMenuList mainNav">
+                            <li class="mainMenuElement active">
+                                <a href="#" class="mainMenuLink"><span data-hover="About">About</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Projects">Projects</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Contact">Contact</span></a>
+                            </li>
+                        </ul>
+
+                        <div id="mobileButton" class="mobileButton" onclick="mobileMenu();">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="mainContainer">
+                    <div class="contentWhiteBox mt">
+
+                        <div class="flexBox">
+                            <div class="flexBoxTitle">TITAN / 2016 </div>
+                            <div class="flexBoxLeft">
+                                <img src="assets/images/smart-watch-for-the-elite.png" alt="">
+                            </div>
+                            <div class="flexBoxRight">
+                                <div class="textContent">
+                                    <h1 class="pageTitle">
+                                        Smart Watch for the Elite
+                                    </h1>
+                                    <p class="mainP">Description Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a class="knowMore" href="#" target="_blank">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left" onclick="plusSlides(-1)">❮</a>
+                    <a class="right" onclick="plusSlides(1)">❯</a>
+                </div>
+            </main>
+            <footer>
+                <div class="footerText mainContainer">
+                    krishnakumarvs.net all rights resereved
+                </div>
+            </footer>
+        </div>
+
+        <!-- page 4 -->
+
+        <div class="page fade" id="page4">
+            <header>
+                <div class="mainContainer flexContainer">
+
+                    <!--Logo-->
+                    <a href="#" class="logoWrap">
+                        <img src="./assets/images/logo.png" alt="logo">
+                    </a>
+
+                    <nav class="topMenu">
+
+                        <!--Left menu-->
+                        <ul class="mainMenuList mainNav">
+                            <li class="mainMenuElement active">
+                                <a href="#" class="mainMenuLink"><span data-hover="About">About</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Projects">Projects</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Contact">Contact</span></a>
+                            </li>
+                        </ul>
+
+                        <div id="mobileButton" class="mobileButton" onclick="mobileMenu();">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="mainContainer">
+                    <div class="contentWhiteBox mt">
+
+                        <div class="flexBox">
+                            <div class="flexBoxTitle">GSK / 2019 </div>
+                            <div class="flexBoxLeft">
+                                <img src="assets/images/marketing-dashboard.png" alt="">
+                            </div>
+                            <div class="flexBoxRight">
+                                <div class="textContent">
+                                    <h1 class="pageTitle">
+                                        Marketing Dashboard
+                                    </h1>
+                                    <p class="mainP">Description Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a class="knowMore" href="#" target="_blank">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left" onclick="plusSlides(-1)">❮</a>
+                    <a class="right" onclick="plusSlides(1)">❯</a>
+                </div>
+            </main>
+            <footer>
+                <div class="footerText mainContainer">
+                    krishnakumarvs.net all rights resereved
+                </div>
+            </footer>
+        </div>
+
+        <!-- page 5 -->
+
+        <div class="page fade" id="page5">
+            <header>
+                <div class="mainContainer flexContainer">
+
+                    <!--Logo-->
+                    <a href="#" class="logoWrap">
+                        <img src="./assets/images/logo.png" alt="logo">
+                    </a>
+
+                    <nav class="topMenu">
+
+                        <!--Left menu-->
+                        <ul class="mainMenuList mainNav">
+                            <li class="mainMenuElement active">
+                                <a href="#" class="mainMenuLink"><span data-hover="About">About</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Projects">Projects</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Contact">Contact</span></a>
+                            </li>
+                        </ul>
+
+                        <div id="mobileButton" class="mobileButton" onclick="mobileMenu();">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="mainContainer">
+                    <div class="contentWhiteBox mt">
+
+                        <div class="flexBox">
+                            <div class="flexBoxTitle">All Works / 2008 - 2019 </div>
+                            <div class="flexBoxLeft">
+                                <img src="assets/images/work-timeline.png" alt="">
+                            </div>
+                            <div class="flexBoxRight">
+                                <div class="textContent">
+                                    <h1 class="pageTitle">
+                                        Work Timeline
+                                    </h1>
+                                    <p class="mainP">Description Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <a class="knowMore" href="#" target="_blank">Know More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left" onclick="plusSlides(-1)">❮</a>
+                    <a class="right" onclick="plusSlides(1)">❯</a>
+                </div>
+            </main>
+            <footer>
+                <div class="footerText mainContainer">
+                    krishnakumarvs.net all rights resereved
+                </div>
+            </footer>
+        </div>
+
+        <!-- contact page -->
+
+        <div class="page fade" id="contactPage">
+            <header>
+                <div class="mainContainer flexContainer">
+
+                    <!--Logo-->
+                    <a href="#" class="logoWrap">
+                        <img src="./assets/images/logo.png" alt="logo">
+                    </a>
+
+                    <nav class="topMenu">
+
+                        <!--Left menu-->
+                        <ul class="mainMenuList mainNav">
+                            <li class="mainMenuElement active">
+                                <a href="#" class="mainMenuLink"><span data-hover="About">About</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Projects">Projects</span></a>
+                            </li>
+                            <li class="mainMenuElement">
+                                <a href="#" class="mainMenuLink"><span data-hover="Contact">Contact</span></a>
+                            </li>
+                        </ul>
+
+                        <div id="mobileButton" class="mobileButton" onclick="mobileMenu();">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="mainContainer">
+                    <div class="contentWhiteBox mt">
+                        <div class="textContent contactText">
+                            <form id="contactForm">
+                                <div class="form">
+                                    <div class="formFlexItem">
+                                        <input type="text" placeholder="John Doe">
+                                        <input type="mail" placeholder="Mail">
+                                        <input type="phone" placeholder="Phone">
+                                    </div>
+                                    <div class="formFlexItem secondFlex">
+                                        <span>Message</span>
+                                        <textarea placeholder="You content goes here"></textarea>
+                                    </div>
+                                </div>
+                                <a href="popup.html" target="_top" alt><button id="btnContact" type="button">Submit</button></a>
+                            </form>
+                        </div>
+                        <div class="contactFooter">
+                            <div class="cvContactinline">
+                                <a href="mailto:kktheillusionist@gmail.com">
+                                    <span class="social"><i class="far fa-envelope"></i></span>
+                                    <span class="socialContent">kktheillusionist@gmail.com</span>
+                                </a>
+                            </div>
+                            <div class="cvContactinline">
+                                <span class="social"><i class="fa fa-phone-alt"></i></span>
+                                <span class="socialContent">+91 9980085822</span>
+                            </div>
+                            <div class="cvContactinline">
+                                <span class="social"><i class="fab fa-twitter"></i></span>
+                                <span class="socialContent">twiter</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left" onclick="plusSlides(-1)">❮</a>
+                </div>
+
+            </main>
+
+            <footer>
+                <div class="footerText mainContainer">
+                    krishnakumarvs.net all rights resereved
+                </div>
+            </footer>
+        </div>
+
+
     </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("page");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+
 
 </body>
 
